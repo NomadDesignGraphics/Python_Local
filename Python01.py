@@ -91,3 +91,5 @@ q3 = int(q2) #Decimal ver tipini Integer a dönüştürmüş olduk
 burda stringdeki ondalıklı olarak belirtilmiş verinin decimal bir veri tipine çevirir (string baskılıyorum çünki bir veriyi ondalıklı olacak şekilde int yazamazsınız sistem
 direkt olarak onu Decimal olarak algılayacaktır)
 ###
+a10 = "1.800312"
+a11 = Decimal(a10) #
