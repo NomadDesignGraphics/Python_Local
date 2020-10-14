@@ -39,17 +39,16 @@ print(b1 + b2) #ortaya çıkacak sonuç ("12Dev adam") olacaktır
 
 # TOPLAMA (+)
 #düzgün matematik / Integer değer üzerinden işlem yapma
-b3=4
-print(b1+b3) #ortaya çıkacak sonuç ("16") olacaktır
+print(12+4) #ortaya çıkacak sonuç ("16") olacaktır
 
 # ÇIKARMA (-)
-print(b1 - b3)
+print(12 - 4) # sonuç ("8") olacaktır
 
 # ÇARPMA (*)
 #Not: Çarpma işleminde 1adet string veri tipi kullanırsanız bu belirtilen string veri tipini kaç kez tekrarlayacağını belirtir
 #örn.
-print(b2 * b3) # sonuç ("Dev adamDev adamDev adamDev adam") olacaktır
+print(b2 * 4) # sonuç ("Dev adamDev adamDev adamDev adam") olacaktır
 
 # BÖLME (/)
-print(b1 / b3) # sonuç ("3") olacaktır çünki 12 sayısı, 4 rakamına bölünmüştür.
+print(12 / 4) # sonuç ("3") olacaktır çünki 12 sayısı, 4 rakamına bölünmüştür.
 
