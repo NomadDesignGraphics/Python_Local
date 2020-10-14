@@ -68,3 +68,26 @@ if a1 > c1:
 #Şimdi burda ne oldu diye sorarsanız sisteme sorgu göndermiş oldunuz ve sorguda 
 #(a1 değşkeninde belirtilen veri c1 değişkeninde belirtilen veriden büyükse [18 sayısı 12 den büyüktür] yazar)
 #şayet a1 değişkenindeki veri c1 değişkeninden küçük kalsaydı "else" kısmında belirtilen kod harekete geçirilecektir
+
+###input
+#verileri sizin girmenizi sağlar ve bununla çok fazla işlem sağlayabilirsiniz yazacağınız kodlarda anahtar etken oynayacaktır
+#örn.
+q1 = str(input("Veri giriniz: "))
+print(q1)
+
+###Çevirme operatörleri
+#girdiğiniz değişken verilerinde [String,Integer,Bool,Decimal] tipleri vardır ve girdiğiniz şekile göre değişkenlik göstereceklerdir
+#String çevirme
+d1 = 122
+f1 = str(d1) #String tipine çevirme şekli böyledir
+
+#Integer çevirme
+#burda asla String bir veri sayıdan ibaret değilse string bir veriden integer a convert etmenizi taavsiye etmem hatayla karşılaşıcaksınız
+q2 = 12.802 #bu bir decimal (ondalık) veri tipi
+q3 = int(q2) #Decimal ver tipini Integer a dönüştürmüş olduk
+
+#Decimal çevirme
+###
+burda stringdeki ondalıklı olarak belirtilmiş verinin decimal bir veri tipine çevirir (string baskılıyorum çünki bir veriyi ondalıklı olacak şekilde int yazamazsınız sistem
+direkt olarak onu Decimal olarak algılayacaktır)
+###
