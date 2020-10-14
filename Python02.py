@@ -23,7 +23,7 @@ names.insert(1, "Gökhan")
 #en basitinden anlatmam gerekirse bir oyuna katıldıkça oyunda ["isim" oyuncu katıldı] diye gösterir
 #burda For döngüsü baş göstermektedir
 
-oyuncular = ["a","b","c","d","e","f","g","h","ı","i","j","k","ş"]
+a = [oyuncu]
 
 for herGiren in oyuncular:
-  print(oyuncular[-1], " ","katıldı")
+  print(a, " ","katıldı")
