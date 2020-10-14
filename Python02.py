@@ -19,3 +19,11 @@ names.remove("Gökhan")
 #Belirli yere veri ekleme/belirtilmiş veriyi yeni girilenle değiştir
 names.insert(1, "Gökhan")
 
+###FOR döngüsü
+#en basitinden anlatmam gerekirse bir oyuna katıldıkça oyunda ["isim" oyuncu katıldı] diye gösterir
+#burda For döngüsü baş göstermektedir
+
+oyuncular = ["a","b","c","d","e","f","g","h","ı","i","j","k","ş"]
+
+for herGiren in oyuncular:
+  print(oyuncular[-1], " ","katıldı")
