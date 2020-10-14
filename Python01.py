@@ -94,3 +94,13 @@ direkt olarak onu Decimal olarak algılayacaktır)
 ###
 a10 = "1.800312"
 a11 = float(a10) #artık Decimal bir veriye sahibiz
+
+#Bool çevirme
+###
+Burda bütün değişkenlerin Bool tipindeki görünümünü görebilirsiniz
+###
+b10 = "aa"
+b11 = bool(b10)
+print(b11) #sonuç ("True") çıkacaktır ekranda
+#eğerkine bool testine soktuğunuz değişkende hiç veri olmasaydı karşınıza ("False") sonucu çıkacaktır
+
