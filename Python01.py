@@ -52,3 +52,19 @@ print(b2 * 4) # sonuç ("Dev adamDev adamDev adamDev adam") olacaktır
 # BÖLME (/)
 print(12 / 4) # sonuç ("3") olacaktır çünki 12 sayısı, 4 rakamına bölünmüştür.
 
+###Veri tipi değiştirme 
+#yukarda belirttiğim "b1" değişkeninde 12 aslında bir string ifadedir
+#şimdi bunu integer bir değer e çevirecez
+c1 = int(b1) #Bu kodda şimdi c1 değişkeni , b1 değişkeninde belirtilen sayının string ifadeden integer ifadeye dönüştürülmüştür
+print(c1 * 4) #sonuç ("48") olacaktır 
+
+###if-else
+#öyleyse yada değilse için oluşturulmuş kodlardır bütün yazılım dillerinde vardır hepsinde farklılık gösterecektir ama ortak yönlerle
+#biz python dan devam edelim 
+if a1 > c1:
+  print("18 sayısı 12 den büyüktür") 
+  else:
+  print("nasıl oldu bilmiyorum ama 18 rakamı 12 den küçük geldi")
+#Şimdi burda ne oldu diye sorarsanız sisteme sorgu göndermiş oldunuz ve sorguda 
+#(a1 değşkeninde belirtilen veri c1 değişkeninde belirtilen veriden büyükse [18 sayısı 12 den büyüktür] yazar)
+#şayet a1 değişkenindeki veri c1 değişkeninden küçük kalsaydı "else" kısmında belirtilen kod harekete geçirilecektir
